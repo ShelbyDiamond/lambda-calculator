@@ -5,14 +5,14 @@ import NumberButton from "./NumberButton";
 import { numbers } from "../../../data";
 //Import your array data to from the provided data file
 
-const Numbers = () => {
+const Numbers = props => {
   // STEP 2 - add the imported data to state
   const [number, setNumber] = useState(numbers);
 
   return (
     <div>
       {number.map(num => (
-        <NumberButton num={num} />
+        <NumberButton update={props.update} num={num} />
       ))}
     </div>
   );

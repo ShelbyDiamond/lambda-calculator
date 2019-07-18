@@ -7,7 +7,7 @@ import { operators } from "../../../data";
 
 const Operators = props => {
   // STEP 2 - add the imported data to state
-  const [operator, setOperator] = useState(operators);
+  const [operator] = useState(operators);
   return (
     <div>
       {operator.map(operate => {

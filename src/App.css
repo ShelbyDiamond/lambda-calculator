@@ -1,0 +1,45 @@
+.container {
+  background: red;
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 50px;
+  padding: 10px;
+}
+.innerContainer {
+  color: black;
+  background: white;
+  border: 2px solid black;
+  width: 30%;
+  margin: 50px;
+  padding: 10px;
+}
+.numberButtons {
+  width: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  background: black;
+  justify-content: space-around;
+}
+
+.specialButtons {
+  width: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.numberButtons {
+  background: rebeccapurple;
+  color: white;
+  border-radius: 50%;
+  margin: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 16 px;
+}
+
+.SpecialButton {
+  color: white;
+  border-radius: 50%;
+  padding: 50px;
+}
